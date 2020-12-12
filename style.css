@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'tahoma';
+}
+.header-area{
+   background: #405E9B;
+   width: 100%;
+  /* overflow: hidden;*/
+    padding: 10px 0;
+}
+.header-area:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    margin-top: 20px;
+}
+.login{
+    float: right;
+}
+.login form{
+    display: flex;
+}
+.login form div{
+    margin: 0 10px;
+}
+.login input{
+    display: block;
+    border: 1px solid #1D2A5B;
+    padding: 4px 2px;
+}
+.login label{
+    color: #fff;
+    font-size: 13px;
+    line-height: 2em;
+}
+.login a{
+    color: #9cb4d8;
+    font-size: 13px;
+    text-decoration: none;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.login-button-area input{
+    margin-top: 25px;
+    background: #4267B2;
+    color: #fff;
+    padding: 4px 10px;
+}
+.login-button-area input:hover{
+    background: #365899;
+}
+
+/* Signup Area */
+
+.signup-area{
+    background: linear-gradient(white, #D3D8E8);
+    padding: 50px 0;
+}
+.signup-content{
+    display: flex;
+    justify-content: space-between;
+}
+.signup-left{
+    width: 45%;
+}
+.signup-left h2{
+    color: #0E385F;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+.signup-left img{}
+.signup-right{
+    width: 40%;
+}
+.section-title h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.section-title p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.username{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.username input{
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+}
+.username .fname,
+.username .lname{
+    width: 46%;
+}
+.mobile input{
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    margin-bottom: 10px;
+}
+.new-pass input{
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    margin-bottom: 20px;
+}
+.birthday h4{
+    color: darkgrey;
+    margin-bottom: 5px;
+}
+.bd-date{
+    display: flex;
+    margin-bottom: 10px;
+}
+.bd-date select{
+    width: 70px;
+    padding: 6px;
+    border-radius: 2px;
+    border: 1px solid #bdc7d8;
+}
+.gender h4{
+    color: darkgrey;
+    margin-bottom: 10px;
+}
+.select-gender{
+    margin-bottom: 20px;
+}
+.select-gender label{
+    margin-right: 20px;
+    font-size: 18px;
+}
+.privacy-text p{
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: grey;
+    width: 70%;
+}
+.submit input{
+    font-size: 20px;
+    height: 39px;
+    width: 170px;
+    background: #69A04E;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    margin-bottom: 30px;
+}
+.submit input:hover{
+    background: #69A74E;
+    cursor: pointer;
+}
+.page p{
+    font-size: 13px;
+    color: #666666;
+}
+
+
+/* Placeholder */
+
+.signup-form input::-webkit-input-placeholder { /* Edge */
+  font-size: 18px;
+}
+
+.signup-form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   font-size: 18px;
+}
+
+.signup-form input::placeholder {
+   font-size: 18px;
+   opacity: 1;
+}
+
+.footer-up{
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.footer-up div {
+    padding-right: 10px;
+}
+
+.footer-down{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.up {
+    display: flex;
+}
+
+.up div{
+    margin-right: 20px;
+}
+
+.down {
+    display: flex;
+}
+
+.down div{
+    margin-right: 20px;
+}
+
+.footer-credit {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+

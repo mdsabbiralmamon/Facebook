@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+    .logo{
+        float: none;
+    }
+    .login{
+        float: none;
+    }
+    .login form{
+        display: block;
+    }
+    .login .user-area input,
+    .login .pass-area input{
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .logo{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .logo img{
+        width: 100%;
+    }
+}
